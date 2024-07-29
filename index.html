@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/style.css">
+    <link rel="stylesheet" href="/src/styles/responsividade.css">
+    <link rel="shortcut icon" href="/src/assets/logo.jpeg" type="image/x-icon">
+    <meta name="description"
+        content="Site Desenvolvido para comunidade Codigo Certo Coders e participar de projetos voluntários.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, desenvolvimento web, programação">
+    <meta name="author" content="Mateus Fernandes">
+    <script src="https://kit.fontawesome.com/8b299f3b3f.js" crossorigin="anonymous"></script>
+    <title>Codigo Certo</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"> <img src="/src/assets/logo.jpeg" alt="logo" class="logo">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#likes">Gostos Pessoais</a></li>
+                <li><a href="#motivation">Motivação</a></li>
+            </ul>
+
+        </nav>
+
+
+        <div class="social-media">
+            <a href="https://www.instagram.com/mfernandesbjj/" target="_blank"><i
+                    class="fa-brands fa-instagram "></i></a>
+            <a href="https://www.linkedin.com/in/mateusfernandesvn/" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
+
+        </div>
+    </header>
+    <div class="menu-mobile">
+        <div class="menuNav" id="menuNav">
+            <a href="javascript:void(0)" class="btnFechar" onclick="fecharMenu()"> &times; </a>
+            <div class="nav">
+
+                <a href="#about" onclick="fecharMenu()" class="navegar">Sobre Mim</a>
+                <a href="#likes" onclick="fecharMenu()" class="navegar">Gostos Pessoais</a>
+                <a href="#motivation" onclick="fecharMenu()" class="navegar">Motivação</a>
+            </div>
+
+        </div>
+        <img src="/src/assets/logo.jpeg" alt="logo" class="logo">
+        <button class="btn-nav" onclick="abrirMenu()">
+            <i class="fa fa-bars"></i>
+        </button>
+    </div>
+
+    <main>
+        <section class="about" id="about">
+            <div class="left">
+                <div class="left-content">
+                    <h2>Mateus Fernandes</h2>
+                    <p>Olá! Meu nome é Mateus Fernandes e tenho 19 anos. Sou estudante de Desenvolvimento de Sistemas
+                        com foco em Fullstack. Desde que comecei minha jornada na programação, tenho sido impulsionado
+                        pela vontade de resolver problemas e pela busca incessante por aprendizado. Encontrei na
+                        programação uma paixão, e essa paixão me motiva a sempre querer aprender mais e me aprimorar
+                        constantemente. <br>
+                        Além da programação, sou também atleta de jiu-jitsu. O esporte me ensinou disciplina,
+                        resiliência e a importância de um treinamento contínuo, valores que levo para minha vida
+                        profissional.</p>
+                </div>
+            </div>
+
+            <div class="right">
+                <img src="/src/assets/eu.png" alt="Eu">
+            </div>
+
+        </section>
+
+        <section class="likes" id="likes">
+            <h2 class="title">Gostos Pessoais</h2>
+            <div class="table-card">
+                <div class="card">
+                    <img src="/src/assets/foto.jpg" alt="Jiu-Jitsu">
+                    <p>Jiu-Jitsu</p>
+                </div>
+
+                <div class="card">
+                    <img src="/src/assets/academia.jpg" alt="Academia">
+                    <p>Academia</p>
+                </div>
+
+                <div class="card">
+                    <img src="/src/assets/livro.jpg" alt="Livros">
+                    <p>Leitura</p>
+                </div>
+
+                <div class="card">
+                    <img src="/src/assets/netlix.jpg" alt="Netflix">
+                    <p>filmes/séries</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="motivation" id="motivation">
+            <h2 class="title">Motivação</h2>
+            <div class="motivation-content">
+                <p class="">Minha motivação para participar da comunidade Código Certo Coders é impulsionada pela busca
+                    constante por aprendizado e crescimento na área de desenvolvimento de software. Acredito que a troca
+                    de conhecimentos e experiências com outros profissionais e entusiastas da programação é essencial
+                    para o meu desenvolvimento pessoal e profissional. Estou sempre em busca de novas tecnologias e
+                    práticas que possam me ajudar a resolver problemas de forma criativa e eficiente. Além disso, vejo
+                    na comunidade uma oportunidade de colaborar em projetos, compartilhar insights e contribuir para o
+                    fortalecimento do ecossistema tecnológico. Estou animado para aprender com os membros mais
+                    experientes e, ao mesmo tempo, ajudar os iniciantes, promovendo um ambiente de suporte mútuo e
+                    inovação contínua.</p>
+            </div>
+        </section>
+
+        <section class="container-social-media">
+            <h2 class="title">Siga-me nas minha redes sociais</h2>
+            <div class="content">
+                <a href="https://www.instagram.com/mfernandesbjj/" target="_blank"> <img src="/src/assets/instagram.png"
+                        alt="instagram" title="instagram"></a>
+                <a href="https://github.com/Mateusveloso26" target="_blank"> <img src="/src/assets/github.png"
+                        alt="github" title="Github"></a>
+                <a href="https://www.linkedin.com/in/mateusfernandesvn/" target="_blank"> <img
+                        src="/src/assets/linkedin.png" alt="linkedin" title="linkedin"></a>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; Desenvolvido por <i>MF</i> - 2024</p>
+        </footer>
+
+
+    </main>
+
+</body>
+
+<script src="/src/js/index.js"></script>
+
+</html>

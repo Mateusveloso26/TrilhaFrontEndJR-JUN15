@@ -1,0 +1,45 @@
+/* Para telas menores (celulares) */
+@media (max-width: 600px) {
+    header{
+        display: none;
+    }
+    .menu-mobile {
+        display: flex;
+    }
+   
+    .about {
+        flex-direction: column;
+    }
+
+    .left {
+        order: 1;
+    }
+
+    .right {
+        order: -1;
+    }
+
+    .motivation-content {
+        margin: auto;
+    
+    }
+}
+
+/* Para tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .left {
+        order: 1;
+    }
+
+    .right {
+        order: -1;
+    }
+
+}
+
+/* Para telas maiores */
+@media (min-width: 1025px) {}
